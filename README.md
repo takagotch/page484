@@ -1,7 +1,7 @@
 バグ
 https://takagotch.github.io/page484/tag_special_layouts.html
 
-
+482で開発
 
 ###### メディア事業 | 記事
 ## Youtuber 年収ランキングサイト「長者番付YT」　2021
