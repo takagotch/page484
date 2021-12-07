@@ -2,6 +2,7 @@
 ## Youtuber 年収ランキングサイト「長者番付YT」　2021
 
 ### https://takagotch.github.io/page484/
+### メンテナンス用
 ### https://takagotch.github.io/page482/
 
 https://docs.google.com/spreadsheets/d/15nAYJ1smospKcf5zz41b5lF7WlDxUInO2-YGpkPnHk0/edit#gid=0
