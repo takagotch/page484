@@ -1,0 +1,31 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Youtube急上昇
+      external_url: https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl
+    - title: ピックアップNews
+      url: /news
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: 2021年度トップ➂Youtuberチャンネル
+      folderitems:
+        - title: Junya.じゅんやCH
+          external_url: https://www.youtube.com/channel/UCjp_3PEaOau_nT_3vnqKIvg
+        - title: Sagawa /さがわCH
+          external_url: https://www.youtube.com/channel/UCWaOde99oeUVoXbIj3SNu9g
+        - title: まいぜんシスターズCH
+          external_url: https://www.youtube.com/channel/UCM3yhFc0-fBFuvqx1Vg2YNQ
+
+    - title: トップ1~50位
+      folderitems:
+        - title: トップ1~50位
+          url: /index.html
+###        - title: Junya.じゅんや
+###          url: /p1_junya.html
+#        - title: Product 2
+#          url: /p2_landing_page.html

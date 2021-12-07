@@ -1,0 +1,31 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: 「長者番付YT」 
+  version: 2021
+  folders:
+  - title: 富豪50人、今年の顔ぶれは？ #年収ランキング
+    output: web, pdf
+    folderitems:
+    
+#            フロアマップ、タグ１・シャッフル表示    
+    - title: ベスト長者番付YTランキング
+      url: /talents_shuffle.html
+      output: web, pdf
+      type: homepage
+
+#　　　　　　 フロアマップ、タグ２・テーブル表示
+#    - title: 5億OVERanking
+#      url: /tag_getting_started.html
+#      output: web, pdf
+#      type: homepage
+#
+#    - title: 1億Ranking
+#      url: /tag_publishing.html
+#      output: web, pdf
+#      type: homepage
+ 
+
+
+

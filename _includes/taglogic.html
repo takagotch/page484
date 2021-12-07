@@ -1,0 +1,128 @@
+<!--
+top1_50.html 用
+-->
+
+<table><thead><tr><th>Youtube</th><th>ランキング</th><th>推定年収</th></tr></thead>
+    <tbody>
+   
+              
+      {% assign thisTag = page.tagName %}
+  {% for page in site.pages %}
+    {% for tag in page.tags %}
+        {% if tag == thisTag %}
+
+        <tr><td><a href="{{ page.url | remove: "/" }}">{{page.title}}</a></td>
+            <td><span class="label label-default"> トップ５０ </span></td>
+          <td>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</td>
+        </tr>
+        {% endif %}
+     {% endfor %}
+   {% endfor %}
+
+        {% assign thisTag = page.tagName %}
+        {% for post in site.posts %}
+        {% for tag in post.tags %}
+        {% if tag == thisTag %}
+
+        <tr><td><a href="{{ post.url | remove: "/" }}">{{post.title}}</a></td>
+            <td><span class="label label-primary">Post</span></td>
+            <td>{% if post.summary %} {{ post.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        
+        
+<!--      
+label label-success"
+label label-warning
+label label-primary
+label label-info
+label label-danger
+        
+        <tr><td><a href="{{ page10.url | remove: "/" }}">{{page.title}}</a></td>
+          <td><span class="label label-success">10位</span></td>
+            
+          <td>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</td>  
+        </tr>
+
+
+
+    {% assign thisTag = page.tagName %}
+  　{% for page in site.pages %}
+    {% for tag in page.tags %}
+    {% if tag == thisTag %}
+
+
+
+        <tr><td><a href="{{ page100.url | remove: "/" }}">{{page.title}}</a></td>
+          <td><span class="label label-warning">100位</span></td>
+            
+          <td>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</td>  
+        </tr>
+     {% endif %}
+     {% endfor %}
+   　{% endfor %}        
+        
+        
+     {% assign thisTag = page.tagName %}
+     {% for post in site.posts %}
+     {% for tag in post.tags %}
+     {% if tag == thisTag %}
+
+
+
+        <tr><td><a href="{{ post.url | remove: "/" }}">{{post.title}}</a></td>
+          <td><span class="label label-primary">2位</span></td>
+            
+          <td>{% if post.summary %} {{ post.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</td>
+        </tr>
+        
+     {% endif %}
+     {% endfor %}
+     {% endfor %}
+
+     {% assign thisTag = page.tagName %}
+     {% for post in site.posts %}
+     {% for tag in post.tags %}
+     {% if tag == thisTag %}
+
+
+
+        <tr><td><a href="{{ post20.url | remove: "/" }}">{{post.title}}</a></td>
+          <td><span class="label label-info">20位</span></td>
+            
+          <td>{% if post.summary %} {{ post.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</td>
+        </tr>
+        
+     {% endif %}
+     {% endfor %}
+     {% endfor %}
+
+
+     {% assign thisTag = page.tagName %}
+     {% for post in site.posts %}
+     {% for tag in post.tags %}
+     {% if tag == thisTag %}
+
+
+
+        <tr><td><a href="{{ post200.url | remove: "/" }}">{{post.title}}</a></td>
+          <td><span class="label label-danger">200位</span></td>
+            
+          <td>{% if post.summary %} {{ post.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ post.content | truncatewords: 50 | strip_html }} {% endif %}</td>
+        </tr>
+        
+     {% endif %}
+     {% endfor %}
+     {% endfor %}
+
+                
+-->  
+        
+        
+     </tbody>
+    
+</table>
+
+<p>The following pages and posts are tagged with <button type="button" style="cursor: default" class="btn btn-default navbar-btn">{{page.tagName}}</button></p>
