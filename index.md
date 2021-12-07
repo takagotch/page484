@@ -27,7 +27,7 @@ permalink: index.html
 6億9439万2074円 (暫定) <br/>
 <a alt='Junya Official Channel - YouTube' href='https://www.youtube.com/channel/UCjp_3PEaOau_nT_3vnqKIvg'>Junya Official Channel - YouTube</a>.<br/>
 <a href='https://www.tiktok.com/@junya1gou?'>　junya1gou - TikTok</a>.<br/>
-<a alt='More info' href='https://takagotch.github.io/page482/mydoc_number_1_1.html'>もっと詳しく</a>.
+<a alt='More info' href='https://takagotch.github.io/page484/mydoc_number_1_1.html'>もっと詳しく</a>.
 " %}
 
 
@@ -41,7 +41,7 @@ permalink: index.html
 {% include note.html content="
 5億3620万6895円 (暫定) <br/>
 <a alt='Sagawa /さがわ - YouTube' href='https://www.youtube.com/channel/UCWaOde99oeUVoXbIj3SNu9g'>Sagawa /さがわ - YouTube</a>.<br/>
-<a alt='More info' href='https://takagotch.github.io/page482/talents_2.html'>もっと詳しく</a>.
+<a alt='More info' href='https://takagotch.github.io/page484/talents_2.html'>もっと詳しく</a>.
 " %}
 
 
@@ -55,7 +55,7 @@ permalink: index.html
 {% include note.html content="
 3億477万5896円 (暫定) <br/>
 <a alt='Maizen - YouTube' href='https://www.youtube.com/channel/UCM3yhFc0-fBFuvqx1Vg2YNQ'>まいぜんシスターズ Maizen - YouTube</a>.<br/>
-<a alt='More info' href='https://takagotch.github.io/page482/talents_3.html'>もっと詳しく</a>.
+<a alt='More info' href='https://takagotch.github.io/page484/talents_3.html'>もっと詳しく</a>.
 " %}
 
 
@@ -69,7 +69,7 @@ permalink: index.html
 {% include note.html content="
 3億563万8574円 (暫定) <br/>
 <a alt='Fischers-フィッシャーズ - YouTube' href='https://www.youtube.com/channel/UCibEhpu5HP45-w7Bq1ZIulw'>Fischer's-フィッシャーズ - YouTube</a>.<br/>
-<a alt='More info' href='https://takagotch.github.io/page482/talents_4.html'>もっと詳しく</a>.
+<a alt='More info' href='https://takagotch.github.io/page484/talents_4.html'>もっと詳しく</a>.
 " %}
 
 ### No.5 東海オンエア　📛
@@ -82,7 +82,7 @@ permalink: index.html
 {% include note.html content="
 2億9723万8313円 (暫定) <br/>
 <a alt='東海オンエア - YouTube' href='https://www.youtube.com/channel/UCutJqz56653xV2wwSvut_hQ'>東海オンエア - YouTube</a>.<br/>
-<a alt='More info' href='https://takagotch.github.io/page482/talents_5.html'>もっと詳しく</a>.
+<a alt='More info' href='https://takagotch.github.io/page484/talents_5.html'>もっと詳しく</a>.
 " %}
 
 ### No.6 HIMAWARIちゃんねる　📛
